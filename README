@@ -1,0 +1,25 @@
+# AdaBoost Ensemble Learner
+
+This repository contains a Python implementation of the AdaBoost algorithm, using a decision stump as the weak learner. The AdaBoost model boosts a weak learner by iteratively improving its performance on misclassified examples, leading to a stronger classifier.
+
+## Features
+- AdaBoost model implementation based on a decision stump
+- Generate synthetic datasets for binary classification
+- Plot training and test error rates
+- Visualize decision boundaries at different iterations
+- Evaluate model performance with various noise levels
+
+## Files
+- `adaboost.py`: The core implementation of the AdaBoost algorithm.
+- `decision_stump.py`: Implements a decision stump as the weak learner.
+- `adaboost_scenario.py`: Example scenarios using AdaBoost with generated datasets.
+- `loss_functions.py`: Includes the loss function for misclassification error.
+- `base_estimator.py`: Base class for all supervised estimators.
+- `utils.py`: Utility functions for data handling and plotting.
+- `requirements.txt`: List of required Python libraries for the project.
+
+## Installation
+
+To install the required libraries, run:
+```bash
+pip install -r requirements.txt
